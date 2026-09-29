@@ -1,0 +1,15 @@
+{
+  "name": "nemoclaw",
+  "version": "0.0.1",
+  "description": "Run OpenClaw agents inside hardened OpenShell sandboxes (sandbox replica for Agentic QA integration tests)",
+  "license": "Apache-2.0",
+  "bin": {
+    "nemoclaw": "bin/nemoclaw.js"
+  },
+  "scripts": {
+    "test": "node --test test/"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

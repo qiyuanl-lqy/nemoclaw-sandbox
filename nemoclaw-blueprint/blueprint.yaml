@@ -1,0 +1,9 @@
+name: nemoclaw
+version: 0.0.1
+agent: openclaw
+image: ghcr.io/nvidia/nemoclaw-sandbox:latest
+policies:
+  - policies/openclaw-sandbox.yaml
+resources:
+  cpu: "2"
+  memory: 4Gi

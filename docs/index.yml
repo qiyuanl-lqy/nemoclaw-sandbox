@@ -1,0 +1,12 @@
+navigation:
+  - variants:
+      - slug: openclaw
+        layout:
+          - section: Get Started
+            slug: get-started
+            contents:
+              - {page: Quickstart, path: get-started/quickstart.mdx, slug: quickstart}
+          - section: Reference
+            slug: reference
+            contents:
+              - {page: Commands, path: reference/commands.mdx, slug: commands}

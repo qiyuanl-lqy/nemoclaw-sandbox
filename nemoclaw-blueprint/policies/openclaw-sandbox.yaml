@@ -1,0 +1,7 @@
+network:
+  default: deny
+  presets:
+    - default
+filesystem:
+  read_only: [/usr, /etc]
+  writable: [/sandbox, /tmp]
